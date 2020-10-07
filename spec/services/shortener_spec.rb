@@ -31,4 +31,5 @@ RSpec.describe Shortener do
 
         expect(first_code).to eq(second_code)
     end
+    
 end
