@@ -1,5 +1,11 @@
 class LinksController < ApplicationController
 
+    def show
+        # Need some error handling in case lookup_code doesn't exist
+        link = Link.find_by(lookup_code: params[:lookup_code])
+        redirect_to link.original_url
+    end
+
     def create
         # js endpoint
         shortener = Shortener.new(link_params[:original_url])
