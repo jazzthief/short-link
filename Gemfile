@@ -34,6 +34,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 4.0.1'
   gem 'rails-controller-testing'
   gem 'pry-rails'
+  gem 'codecov', :require => false, :group => :test
 end
 
 group :development do
