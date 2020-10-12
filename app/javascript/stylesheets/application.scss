@@ -1,7 +1,12 @@
-@import url('https://rsms.me/inter/inter.css');
-    html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&display=swap');
+
+/*@font-face {
+    font-family: 'Inter';
+    src: url(https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;900&display=swap);
+}
+*/
+* {
+    font-family: 'Inter', sans-serif;
 }
 
 body {
