@@ -8,4 +8,3 @@ To do:
 * CI/CD workflows
 * Link click counter
 * More styling
-* Better error handling
